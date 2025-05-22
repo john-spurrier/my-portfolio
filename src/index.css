@@ -1,0 +1,75 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222 47% 11%;
+    --foreground: 0 0% 98%;
+
+    --card: 222 47% 14%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 222 47% 11%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 220 34% 20%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 220 34% 17%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 220 34% 17%;
+    --input: 220 34% 17%;
+    --ring: 217 91% 60%;
+
+    --radius: 0.5rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "ss01", "ss02", "cv01", "cv02", "cv03";
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .clip-path-slant {
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  }
+  
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary via-blue-400 to-blue-300 bg-clip-text text-transparent;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary/50 rounded-full;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
