@@ -13,7 +13,7 @@ export function Footer() {
           </div>
           
           <div className="text-sm text-muted-foreground">
-            © {currentYear} Your Name. All rights reserved.
+            © {currentYear} John Spurrier. All rights reserved.
           </div>
         </div>
       </div>

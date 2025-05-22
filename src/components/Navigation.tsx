@@ -28,8 +28,8 @@ export function Navigation() {
         </a>
         
         <nav className="hidden md:flex space-x-1">
-          <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#about">About</NavLink>
+          <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#contact">Contact</NavLink>
         </nav>
         

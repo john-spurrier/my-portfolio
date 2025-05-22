@@ -33,21 +33,20 @@ export function AboutSection() {
             
             <div className="space-y-4 text-lg">
               <p>
-                I'm a Computer Science graduate from the University of Florida, currently pursuing my Master's degree in Computer Science. 
-                With a strong foundation in both technical and creative fields, I combine my Computer Science expertise with a minor in 
-                Digital Arts and Sciences to create innovative solutions.
+                I'm a Computer Science graduate and current Master's student at the University of Florida. My journey in tech began 
+                with a love for problem-solving, leading me to explore software development, machine learning, HCI, and data science.
               </p>
               
               <p>
-                Currently working as a Software Engineer at AI Powered Athletics, I focus on developing data processing pipelines and 
-                building scalable systems. My experience at Amazon as a Software Development Engineer Intern has given me valuable 
-                insights into large-scale system architecture and efficient development practices.
+                I'm currently a Software Engineer at AI-Powered Athletics, where I build a scalable and secure databank for UF athlete data. 
+                Previously, I interned at Amazon, contributing to API development for dynamic allow/denylist updates.
               </p>
               
               <p>
-                I'm passionate about creating impactful software solutions that solve real-world problems. My projects range from 
-                web applications like WordLadder.co to AI-driven systems like Evacugator, demonstrating my versatility across 
-                different domains and technologies.
+                I'm passionate about creating impactful software. My proudest project, the Student Athlete Databank, earned me a paid role 
+                to continue its development. Other projects include AI tools like Evacugator, finance tools like a Monte Carlo Option 
+                Pricing Dashboard, and several word game web apps. Outside of tech, I enjoy building daily-use tools and performing 
+                stand-up and improv comedy.
               </p>
             </div>
             

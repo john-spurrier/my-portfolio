@@ -56,12 +56,6 @@ export function ContactSection() {
                   </a>
                 </ContactItem>
                 
-                <ContactItem icon={<Phone className="text-primary" />} label="Phone">
-                  <a href="tel:+13525307590" className="hover:text-primary transition-colors">
-                    (352) 530-7590
-                  </a>
-                </ContactItem>
-                
                 <ContactItem icon={<Globe className="text-primary" />} label="Location">
                   <span className="hover:text-primary transition-colors">
                     Gainesville, FL
@@ -71,61 +65,17 @@ export function ContactSection() {
                 <div>
                   <h4 className="text-lg font-medium mb-3">Social Profiles</h4>
                   <div className="flex gap-4">
-                    <a href="https://github.com/johntspurrier" target="_blank" rel="noopener noreferrer" 
+                    <a href="https://github.com/johnspurrier" target="_blank" rel="noopener noreferrer" 
                        className="p-2 bg-secondary rounded-full hover:bg-primary/20 transition-colors">
                       <Github className="h-5 w-5" />
                     </a>
-                    <a href="https://linkedin.com/in/johntspurrier" target="_blank" rel="noopener noreferrer" 
+                    <a href="https://www.linkedin.com/in/john-spurrier-413984216/" target="_blank" rel="noopener noreferrer" 
                        className="p-2 bg-secondary rounded-full hover:bg-primary/20 transition-colors">
                       <Linkedin className="h-5 w-5" />
                     </a>
                   </div>
                 </div>
               </div>
-            </div>
-            
-            <div>
-              <h3 className="text-xl font-semibold mb-6">Send A Message</h3>
-              
-              <form onSubmit={handleSubmit} className="space-y-4">
-                <div>
-                  <Input
-                    name="name"
-                    placeholder="Your Name"
-                    value={formData.name}
-                    onChange={handleChange}
-                    required
-                    className="bg-secondary/50"
-                  />
-                </div>
-                
-                <div>
-                  <Input
-                    name="email"
-                    type="email"
-                    placeholder="Your Email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    required
-                    className="bg-secondary/50"
-                  />
-                </div>
-                
-                <div>
-                  <Textarea
-                    name="message"
-                    placeholder="Your Message"
-                    value={formData.message}
-                    onChange={handleChange}
-                    required
-                    className="min-h-[150px] bg-secondary/50"
-                  />
-                </div>
-                
-                <Button type="submit" disabled={isSubmitting} className="w-full">
-                  {isSubmitting ? "Sending..." : "Send Message"}
-                </Button>
-              </form>
             </div>
           </div>
         </div>

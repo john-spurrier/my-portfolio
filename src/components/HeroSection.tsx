@@ -16,8 +16,8 @@ export function HeroSection() {
           </h2>
           <p className="text-lg text-muted-foreground max-w-xl mb-8">
             I'm a Computer Science graduate from the University of Florida, currently pursuing my Master's degree. 
-            I specialize in full-stack development, AI integration, and building scalable software solutions. 
-            Currently working at AI Powered Athletics and previously interned at Amazon.
+            I specialize in back-end development, AI integration, and building scalable software solutions. 
+            Currently working at AI-Powered Athletics and previously interned at Amazon.
           </p>
           
           <div className="flex flex-wrap gap-4">
