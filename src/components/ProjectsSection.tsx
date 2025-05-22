@@ -17,14 +17,14 @@ const projects: Project[] = [
     title: "WordLadder.co",
     description: "A daily word game with real-time validation and social sharing features. Features an intuitive UI with dynamic letter highlighting and animations.",
     technologies: ["Javascript", "HTML", "CSS", "Netlify", "Supabase"],
-    image: "./public/wordladder.png",
+    image: "/wordladder.png",
     demoUrl: "https://wordladder.co",
   },
   {
     title: "WordSpin",
     description: "A word game revolved around rotating blocks of letters to make words that fit the theme. Features an intuitive UI with dynamic letter highlighting and animations.",
     technologies: ["Javascript", "HTML", "CSS", "React", "Vite"],
-    image: "./public/WordSpin.png",
+    image: "/WordSpin.png",
     demoUrl: "https://word-spin.vercel.app/",
     githubUrl: "https://github.com/john-spurrier/WordSpin"
   },
@@ -32,7 +32,7 @@ const projects: Project[] = [
     title: "Evacugator",
     description: "An AI-driven Angular application providing real-time hurricane evacuation advice. Integrates multiple APIs for shelter and evacuation zone data analysis.",
     technologies: ["Python", "Angular", "ArcGIS API", "OverPass API", "FEMA API", "IBM WatsonX"],
-    image: "./public/evacugator.png",
+    image: "/Evacugator.png",
     demoUrl: "https://devpost.com/software/evacugator",
     githubUrl: "https://github.com"
   },
@@ -40,14 +40,14 @@ const projects: Project[] = [
     title: "Monte Carlo Option Pricing Dashboard",
     description: "A web application for visualizing Monte Carlo simulations of option pricing. Features interactive charts and real-time data updates.",
     technologies: ["Python", "C++"],
-    image: "./public/montecarlo.png",
+    image: "/MonteCarlo.png",
     githubUrl: "https://github.com/john-spurrier/MonteCarloOptionPricing"
   },
   {
     title: "Football Score Notifier",
     description: "A Python application that fetches live football scores via API and sends instant notifications to users. Optimized for low-latency score tracking.",
     technologies: ["Python", "TelegramAPI"],
-    image: "./public/football.png",
+    image: "/football.png",
     githubUrl: "https://github.com/john-spurrier/FootballWebScrapingAndTelegramBot"
   }
 ];
