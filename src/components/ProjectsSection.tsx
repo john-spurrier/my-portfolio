@@ -1,4 +1,3 @@
-
 import { useRef } from "react";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -15,28 +14,35 @@ type Project = {
 
 const projects: Project[] = [
   {
-    title: "Project One",
-    description: "A full-stack web application that helps users track their daily expenses and visualize spending patterns through interactive charts.",
-    technologies: ["React", "Node.js", "MongoDB", "Chart.js"],
+    title: "WordLadder.co",
+    description: "A daily word game with real-time validation and social sharing features. Features an intuitive UI with dynamic letter highlighting and animations.",
+    technologies: ["Javascript", "HTML", "CSS", "SQL", "Netlify", "Supabase"],
     image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=800&q=80",
-    demoUrl: "https://example.com",
+    demoUrl: "https://wordladder.co",
     githubUrl: "https://github.com"
   },
   {
-    title: "Project Two",
-    description: "A machine learning model to predict stock market trends based on historical data and sentiment analysis from news articles.",
-    technologies: ["Python", "TensorFlow", "NLP", "Flask"],
+    title: "Evacugator",
+    description: "An AI-driven Angular application providing real-time hurricane evacuation advice. Integrates multiple APIs for shelter and evacuation zone data analysis.",
+    technologies: ["Python", "Angular", "ArcGIS API", "OverPass API", "FEMA API", "IBM WatsonX"],
     image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80",
-    demoUrl: "https://example.com",
+    demoUrl: "https://evacugator.com",
     githubUrl: "https://github.com"
   },
   {
-    title: "Project Three",
-    description: "An e-commerce platform with integrated payment processing, inventory management, and analytics dashboard.",
-    technologies: ["Next.js", "TypeScript", "Stripe", "Prisma"],
+    title: "Comment-Tary",
+    description: "A Chrome Extension enabling real-time comment sections on any website. Features scalable backend with MongoDB and FastAPI, and secure authentication.",
+    technologies: ["HTML", "CSS", "Javascript", "Python", "MongoDB", "FastAPI", "Auth0"],
     image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&q=80",
     githubUrl: "https://github.com"
   },
+  {
+    title: "Football Score Notifier",
+    description: "A Python application that fetches live football scores via API and sends instant notifications to users. Optimized for low-latency score tracking.",
+    technologies: ["Python", "TelegramAPI"],
+    image: "https://images.unsplash.com/photo-1508098682722-e99c643e0f76?auto=format&fit=crop&w=800&q=80",
+    githubUrl: "https://github.com"
+  }
 ];
 
 export function ProjectsSection() {

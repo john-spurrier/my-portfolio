@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 
 export function HeroSection() {
@@ -7,17 +6,18 @@ export function HeroSection() {
       <div className="container">
         <div className="max-w-3xl">
           <h2 className="text-sm sm:text-base font-medium text-primary mb-3 opacity-90">
-            Hello, my name is
+            Hello, I'm
           </h2>
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4">
-            <span className="text-gradient">Your Name</span>
+            <span className="text-gradient">John Spurrier</span>
           </h1>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-6 text-muted-foreground">
-            I build things for the web
+            Software Engineer & Computer Science Graduate
           </h2>
           <p className="text-lg text-muted-foreground max-w-xl mb-8">
-            I'm a computer science graduate specializing in creating exceptional digital experiences. 
-            Currently, I'm focused on building accessible, human-centered products.
+            I'm a Computer Science graduate from the University of Florida, currently pursuing my Master's degree. 
+            I specialize in full-stack development, AI integration, and building scalable software solutions. 
+            Currently working at AI Powered Athletics and previously interned at Amazon.
           </p>
           
           <div className="flex flex-wrap gap-4">

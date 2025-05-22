@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -52,31 +51,31 @@ export function ContactSection() {
               
               <div className="space-y-6">
                 <ContactItem icon={<Mail className="text-primary" />} label="Email">
-                  <a href="mailto:your.email@example.com" className="hover:text-primary transition-colors">
-                    your.email@example.com
+                  <a href="mailto:johntaylorspurrier@gmail.com" className="hover:text-primary transition-colors">
+                    johntaylorspurrier@gmail.com
                   </a>
                 </ContactItem>
                 
                 <ContactItem icon={<Phone className="text-primary" />} label="Phone">
-                  <a href="tel:+1234567890" className="hover:text-primary transition-colors">
-                    +1 (234) 567-890
+                  <a href="tel:+13525307590" className="hover:text-primary transition-colors">
+                    (352) 530-7590
                   </a>
                 </ContactItem>
                 
-                <ContactItem icon={<Globe className="text-primary" />} label="Website">
-                  <a href="https://yourwebsite.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
-                    yourwebsite.com
-                  </a>
+                <ContactItem icon={<Globe className="text-primary" />} label="Location">
+                  <span className="hover:text-primary transition-colors">
+                    Gainesville, FL
+                  </span>
                 </ContactItem>
                 
                 <div>
                   <h4 className="text-lg font-medium mb-3">Social Profiles</h4>
                   <div className="flex gap-4">
-                    <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" 
+                    <a href="https://github.com/johntspurrier" target="_blank" rel="noopener noreferrer" 
                        className="p-2 bg-secondary rounded-full hover:bg-primary/20 transition-colors">
                       <Github className="h-5 w-5" />
                     </a>
-                    <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" 
+                    <a href="https://linkedin.com/in/johntspurrier" target="_blank" rel="noopener noreferrer" 
                        className="p-2 bg-secondary rounded-full hover:bg-primary/20 transition-colors">
                       <Linkedin className="h-5 w-5" />
                     </a>
