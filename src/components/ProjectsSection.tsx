@@ -37,6 +37,14 @@ const projects: Project[] = [
     githubUrl: "https://github.com"
   },
   {
+    title: "Comment-Tary",
+    description: "A Chrome Extension that enables real-time comment sections on any website. Features a scalable backend with MongoDB and FastAPI for seamless comment management, along with Auth0 authentication to prevent bot spam.",
+    technologies: ["HTML", "CSS", "Javascript", "Python", "MongoDB", "FastAPI", "Auth0", "Chrome Extension"],
+    image: "/commentary.png",
+    demoUrl: "https://devpost.com/software/comment-tary",
+    githubUrl: "https://github.com/john-spurrier/swamphacks-25"
+  },
+  {
     title: "Monte Carlo Option Pricing Dashboard",
     description: "A web application for visualizing Monte Carlo simulations of option pricing. Features interactive charts and real-time data updates.",
     technologies: ["Python", "C++"],
