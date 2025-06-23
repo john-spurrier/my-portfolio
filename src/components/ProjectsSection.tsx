@@ -29,6 +29,22 @@ const projects: Project[] = [
     githubUrl: "https://github.com/john-spurrier/WordSpin"
   },
   {
+    title: "Pokemon TCG Simulator",
+    description: "A modern, interactive Pokemon Trading Card Game simulator built with React. Features drag-and-drop card management, health tracking, deck searching, and a realistic playmat interface. Players can load their 60-card deck, shuffle, draw cards, and simulate Pokemon battles with full game mechanics including prize cards, bench Pokemon, and status effects.",
+    technologies: [
+      "React",
+      "JavaScript",
+      "Vite",
+      "React Draggable",
+      "Lucide React",
+      "CSS",
+      "HTML"
+    ],
+    image: "/pokemon.jpg",
+    demoUrl: "https://pokemon-simulator.vercel.app/",
+    githubUrl: "https://github.com/john-spurrier/Pokemon-Simulator"
+  },
+  {
     title: "Evacugator",
     description: "An AI-driven Angular application providing real-time hurricane evacuation advice. Integrates multiple APIs for shelter and evacuation zone data analysis.",
     technologies: ["Python", "Angular", "ArcGIS API", "OverPass API", "FEMA API", "IBM WatsonX"],
