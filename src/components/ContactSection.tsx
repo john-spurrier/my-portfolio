@@ -69,7 +69,7 @@ export function ContactSection() {
                        className="p-2 bg-secondary rounded-full hover:bg-primary/20 transition-colors">
                       <Github className="h-5 w-5" />
                     </a>
-                    <a href="https://www.linkedin.com/in/john-spurrier-413984216/" target="_blank" rel="noopener noreferrer" 
+                    <a href="https://www.linkedin.com/in/john-spurrier-uf/" target="_blank" rel="noopener noreferrer" 
                        className="p-2 bg-secondary rounded-full hover:bg-primary/20 transition-colors">
                       <Linkedin className="h-5 w-5" />
                     </a>
