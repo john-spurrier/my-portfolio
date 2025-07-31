@@ -12,13 +12,19 @@ const skills = [
   { name: "Angular", category: "Frameworks" },
   { name: "NumPy", category: "Frameworks" },
   { name: "Scikit-Learn", category: "Frameworks" },
+  { name: "dbt", category: "Frameworks" },
+  { name: "PySpark", category: "Frameworks" },
   { name: "Git", category: "Developer Tools" },
   { name: "VS Code", category: "Developer Tools" },
-  { name: "Visual Studio", category: "Developer Tools" },
+  { name: "Docker", category: "Developer Tools" },
+  { name: "Podman", category: "Developer Tools" },
+  { name: "Linux", category: "Developer Tools" },
+  { name: "Dagster", category: "Developer Tools" },
   { name: "IntelliJ", category: "Developer Tools" },
-  { name: "Unity", category: "Developer Tools" },
-  { name: "Figma", category: "Design Tools" },
-  { name: "Adobe Photoshop", category: "Design Tools" },
+  { name: "Clickhouse", category: "Databases" },
+  { name: "PostgreSQL", category: "Databases" },
+  { name: "MySQL", category: "Databases" },
+  { name: "MongoDB", category: "Databases" }
 ];
 
 export function AboutSection() {
@@ -86,8 +92,8 @@ export function AboutSection() {
                 className="col-span-2 md:col-span-1"
               />
               
-              <SkillCategory title="Design Tools" 
-                skills={skills.filter(s => s.category === "Design Tools")} 
+              <SkillCategory title="Databases" 
+                skills={skills.filter(s => s.category === "Databases")} 
                 className="col-span-2 md:col-span-1"
               />
             </div>
